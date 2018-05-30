@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0.1",
+	"FriendlyName": "Wakatime Plugin",
+	"Description": "Unreal Engine 4 plugin that integrates the Wakatime API functionality (https://wakatime.com) into the UE4 editor.",
+	"Category": "Editor",
+	"CreatedBy": "Trent Polack (Joy Machine, LLC)",
+	"CreatedByURL": "https://joy-machine.com",
+	"SupportURL": "mailto:trent@joy-machine.com",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"CanBeUsedWithUnrealHeaderTool": true,
+	"Modules" :
+	[
+		{
+			"Name": "WakatimeUE4",
+			"Type": "Developer",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms":
+			[
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
